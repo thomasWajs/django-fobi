@@ -8,7 +8,8 @@ try:
     from django.apps import AppConfig
 
     class Config(AppConfig):
-        name = label = 'fobi.contrib.plugins.form_handlers.db_store'
+        name = 'fobi.contrib.plugins.form_handlers.db_store'
+        label = 'db_store'
 
 except ImportError:
     pass
